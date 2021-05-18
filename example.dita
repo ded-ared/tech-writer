@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. -->
+<concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsa4="http://dita.oasis-open.org/architecture/2005/" id="conditions" xsi:noNamespaceSchemaLocation="urn:yandex:names:tc:dita:xsd:yandexConcept.xsd:1.3" xml:lang="ru">
+  <title>Условия поступления</title>
+  <titlealts>
+    <navtitle>Условия поступления</navtitle>
+  </titlealts>
+  <shortdesc>Всё, что необходимо подготовить перед подачей досье в <q>Парижскую школу люкса</q></shortdesc>
+  <conbody>
+    <minitoc/>
+    <note conref="paris-school-of-luxury.dita#paris-school-of-luxury/entrance-note"/>
+    <section id="tests">
+      <title>Вступительные испытания</title>
+      <dl display-style="normal">
+        <dlentry>
+          <dt>Три теста с вариантами ответов:</dt>
+          <dd>
+            <ol>
+              <li>Общая и экономическая культура.</li>
+              <li>Культура индустрии.</li>
+              <li>Культура английского языка.</li>
+            </ol>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Интервью</dt>
+          <dd>30-минутное собеседование с руководителем школы.</dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="documents">
+      <title>Необходимые документы</title>
+      <dl display-style="htab">
+        <dlentry>
+          <dt>Для граждан ЕС</dt>
+          <dd>
+            <ul>
+              <li>Копия последнего полученного диплома</li>
+              <li>Резюме</li>
+              <li>Мотивационное письмо</li>
+              <li>Копия удостоверения личности</li>
+            </ul>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Для проживающих вне ЕС</dt>
+          <dd>
+            <ul>
+              <li>Справка о несудимости</li>
+              <li>Копия школьного аттестата</li>
+              <li>Копия последнего полученного диплома</li>
+              <li>Резюме</li>
+              <li>Мотивационное письмо</li>
+              <li>Копия загранпаспорта</li>
+              <li>Справка о наличии на банковском счете <xref href="#conditions/fee" format="dita">суммы</xref> для оплаты двух последующих лет обучения</li>
+            </ul>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="fee">
+      <title>Плата за обучение</title>
+      <p>В сумму включены все обязательные платежи (курсы, стажировки, лицензии на ПО). Дополнительные сборы могут взиматься за международные сессии.</p>
+      <table>
+        <tgroup cols="2">
+          <thead>
+            <row>
+              <entry>Год обучения</entry>
+              <entry>Сумма в евро</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>1-й год</entry>
+              <entry>13&#160;200</entry>
+            </row>
+            <row>
+              <entry>2-й год</entry>
+              <entry>13&#160;200</entry>
+            </row>
+            <row>
+              <entry>3-й год</entry>
+              <entry>13&#160;200</entry>
+            </row>
+            <row>
+              <entry>4-й год</entry>
+              <entry>13&#160;700</entry>
+            </row>
+            <row>
+              <entry>5-й год</entry>
+              <entry>13&#160;700</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <note>Платеж за каждый год можно разбить на три части.</note>
+    </section>
+  </conbody>
+  <related-links>
+    <link href="how-to-apply.dita"/>
+  </related-links>
+</concept>
