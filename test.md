@@ -1,4 +1,4 @@
-SSO Login
+# SSO Login
 
 Single sign-on (SSO) is an authentication method that enables users to securely authenticate with multiple applications and websites by using just one set of credentials.
 
@@ -7,11 +7,13 @@ With SSO, end-users time and efforts get minimized as they do not need to consta
 Sumsub gives you the ability to control and manage accounts on your service side. Re-authentication is not required when authorizing in Sumsub dashboard.
 Configuring SSO
 
+# Configuring SSO
+
 To configure SSO login, do the following:
 
-    In the Dashboard, go to Dev space → Integrations → SSO Login.
-    Submit your SSO data and complete the settings.
-    Click Save.
+1. In the Dashboard, go to **Dev space → Integrations → SSO Login**.
+2. Submit your SSO data and complete the settings.
+3. Click Save.
 
 Information!
 For your convenience, there is a placeholder in each field to get the idea of how it should be filled in.
