@@ -7,6 +7,14 @@ With SSO, end-users time and efforts get minimized as they do not need to consta
 Sumsub gives you the ability to control and manage accounts on your service side. Re-authentication is not required when authorizing in Sumsub dashboard.
 Configuring SSO
 
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
+
 # Configuring SSO
 
 To configure SSO login, do the following:
