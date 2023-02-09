@@ -15,6 +15,22 @@ To configure SSO login, do the following:
 2. Submit your SSO data and complete the settings.
 3. Click Save.
 
+| Left-Aligned  | Center Aligned  | Right Aligned |
+|:------------- |:---------------:| -------------:|
+| col 3 is      | some wordy text |     **$1600** |
+| col 2 is      | centered        |         $12   |
+| zebra stripes | are neat        |        ~~$1~~ |
+
+<table>
+    <tr>
+        <td><b>Column 1. Row 2 Text</b></td>
+        <td><b>Column 2. Row 2 Text</b></td>
+    </tr>
+    <tr>
+        <td>Column 1. Row 3 Text</td>
+        <td>Column 2. Row 3 Text</td>
+    </tr>
+</table>
 Information!
 For your convenience, there is a placeholder in each field to get the idea of how it should be filled in.
 
