@@ -1,47 +1,47 @@
 # Table
 
-<table width="100%" cellpadding="0" cellspacing="0">
+<table class="table" style="table-layout: fixed;" cellpadding="0" cellspacing="0">
 	<tr valign="top">
-		<td width="33%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Колонка
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Колонка
 			1 Строка 1</b></font></p>
 		</td>
-		<td colspan="2" width="67" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td colspan="2" width="70" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Колонка 2-3</b></font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td rowspan="4" width="33%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td rowspan="4" width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif">Колонка 1 Строка 2-4</font></p>
 		</td>
-		<td width="33%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
+		<td width="35%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
 			2 Строка 2</font></p>
 		</td>
-		<td width="33%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
+		<td width="35%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
 			3 Строка 2</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="33%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
+		<td width="35%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
 			2 Строка 3</font></p>
 		</td>
-		<td width="33%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
+		<td width="35%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
 			3 Строка 3</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="33%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
+		<td width="35%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
 			2 Строка 4</font></p>
 		</td>
-		<td width="33%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
+		<td width="35%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
 			3 Строка 4</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="33%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
+		<td width="35%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
 			2 Строка 5</font></p>
 		</td>
-		<td width="33%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
-			3 Строка 4</font></p>
+		<td width="35%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Колонка
+			3 Строка 5</font></p>
 		</td>
 	</tr>
 </table>
