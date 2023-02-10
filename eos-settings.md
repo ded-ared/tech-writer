@@ -258,7 +258,8 @@ sudo apt install lm-sensors
 
 ```
 conky -c /home/dedared/.Conky/default/conky.conf
-
+```
+```
 .Conky/revolutionary_clocks/rev_midi/start_conky.sh
 ```
 
