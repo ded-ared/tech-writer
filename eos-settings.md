@@ -193,9 +193,11 @@ sudo apt update
 sudo apt install gimp
 ```
 
-не особо надо, есть вот это:
+не особо он нужен нынче, так как есть вот это:
 
 https://www.photopea.com/
+
+для домашних нужд более, чем достаточно.
 
 ---
 
@@ -245,12 +247,14 @@ sudo apt update
 ```
 ---
 
-## Conky
+## Conky (Desktop Clock & System Monitor)
 
 ```
 sudo apt install conky conky-all
 sudo apt install lm-sensors
 ```
+
+В папку `~/home/.Conky` положить нужные файлы.
 
 В автозагрузку добавить комманды:
 
@@ -296,26 +300,36 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 
 ---
 
-Исправление кракозябр в Линуксе
+## Исправление кракозябр в Линуксе
 
-1. Проверяем локали:
-locale -a
+1. Проверить локали:
 
-2. Если там не будет ru_RU.cp1251 то:
+  ```
+  locale -a
+  ```
 
-sudo io.elementary.code /var/lib/locales/supported.d/ru
+2. Если там не будет ru_RU.cp1251 то от имени админа открыть:
 
-Вместо кода любой текстовик, откроется блокнот и там (если нет) добавить:
+  ```
+  ~/var/lib/locales/supported.d/ru
+  ```
+  
+3. и там (если нет) добавить:
 
+```
 ru_RU.CP1251 CP1251
 ru_RU.KOI8-R KOI8-R
+```
 
-3. Сохранить и после выполнить:
+4. Сохранить и после выполнить:
 
+```
 sudo locale-gen
+```
 
 Должно снизу вылезти такое:
 
+```
 Generating locales...
   en_US.UTF-8... done
   ru_RU.CP1251... done
@@ -323,19 +337,21 @@ Generating locales...
   ru_RU.UTF-8... up-to-date
   ru_UA.UTF-8... up-to-date
 Generation complete.
+```
 
 4. Затем проверить снова:
 
+```
 locale -a
+```
 
 Должно быть примерно так:
 
+```
 en_US.utf8
 POSIX
 ru_RU.cp1251
 ru_RU.koi8r
 ru_RU.utf8
 ru_UA.utf8
-
-=======================================
-
+```
