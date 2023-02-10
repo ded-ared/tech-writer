@@ -17,23 +17,35 @@
 
 ## Добавить возможность устанавливать программы через репозитории РРА:
 
-```sudo apt install -y software-properties-common software-properties-gtk```
+```
+sudo apt install -y software-properties-common software-properties-gtk
+```
 
 **Далее для установки использовать:**
 
 Найти программу
 
-```sudo apt search <program-name>```
+```
+sudo apt search <program-name>
+```
 
 Установить
 
-```sudo apt install <program-name>```
+```
+sudo apt install <program-name>
+```
 
 Удалить
 
-```sudo apt remove <program-name>```
+```
+sudo apt remove <program-name>
+```
 
-```sudo spt purge <program-name>```
+или удалить с более тщательной подчисткой следов программы
+
+```
+sudo spt purge <program-name>
+```
 
 -----
 
