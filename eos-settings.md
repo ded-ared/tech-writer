@@ -136,7 +136,8 @@ sudo apt purge имя_пакета.deb
 
 ```
 sudo apt install ttf-mscorefonts-installer
-
+```
+```
 sudo apt install xfonts-terminus fonts-terminus ttf-dejavu fonts-liberation fonts-liberation2 fonts-crosextra-carlito fonts-crosextra-caladea fonts-cantarell
 ```
 
