@@ -175,10 +175,12 @@ audacity 302
 sudo add-apt-repository ppa:ubuntuhandbook1/audacity
 
 лучше через Flatpak
+
 ===================================
 
 gthumb
 sudo add-apt-repository ppa:ubuntuhandbook1/apps
+
 ===================================
 
 gimp
@@ -186,12 +188,14 @@ sudo add-apt-repository ppa:ubuntuhandbook1/gimp
 
 не особо надо, есть вот это:
 https://www.photopea.com/
+
 ===================================
 
 qbittorrent
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
 sudo apt update
 sudo apt install qbittorrent
+
 ===================================
 
 foliate
@@ -247,10 +251,6 @@ export QT_STYLE_OVERRIDE=adwaita
 должно быть так:
 export QT_QPA_PLATFORMTHEME=qt5ct
 
-======================================================
-https://www.cryptopro.ru/user/2099190/edit
-ded-ared@yandex.ru
-e2E4z34X.
 ======================================================
 
 Исправление кракозябр в Линуксе
