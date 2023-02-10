@@ -166,7 +166,6 @@ sudo tar xvf /home/dedared/Софт/Linux Apps/tsetup.4.6.0.tar.xz -C /opt/
 ## Audacity (Music Editor)
 
 ```
-audacity 302
 sudo add-apt-repository ppa:ubuntuhandbook1/audacity
 ```
 
@@ -177,7 +176,6 @@ sudo add-apt-repository ppa:ubuntuhandbook1/audacity
 ## gThumb (Image Viewer)
 
 ```
-gthumb
 sudo add-apt-repository ppa:ubuntuhandbook1/apps
 sudo apt update
 sudo apt install gthumb
