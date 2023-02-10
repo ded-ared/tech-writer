@@ -1,5 +1,6 @@
 # Elementary OS: settings
------------------------------------
+
+---
 
 ## Disk Partition
 
