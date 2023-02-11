@@ -268,7 +268,7 @@ sudo apt install lm-sensors
 
 В папку `~/home/.Conky` положить нужные файлы.
 
-В автозагрузку добавить комманды:
+В автозагрузку добавить команды:
 
 ```
 conky -c /home/dedared/.Conky/default/conky.conf
