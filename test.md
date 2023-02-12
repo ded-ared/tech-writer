@@ -1,3 +1,19 @@
+```mermaid
+graph TB
+A((Inception</br>I wonder how long</br>the text can be here)) ---> B(Vers 1)
+A --> C{Vers 2}
+A ---> D(Vers 3)
+C --> E(Vers Next 1)
+C --> F(Vers Next 2)
+C --> G(Vers Next 3)
+
+```
+
+
+
+
+
+
 # Table
 
 <table class="table" style="table-layout: fixed;" cellpadding="0" cellspacing="0">
