@@ -1,8 +1,54 @@
-# Elementary OS: settings
+# Elementary OS: personal settings
+
+---
+
+## Table of Contents
+
+* [Disk Partition](#disk-partition)
+
+* [Add PPA](#add-ppa-repositories-management)
+
+* [Hide GRUB](#hide-grub)
+
+* [Pantheon Tweaks](#pantheon-tweaks)
+
+* [Additional GNOME Settings](#additional-gnome-settings)
+
+* [KeePassXC](#keepassxc)
+
+* [Firefox + bonus](#firefox-via-official-mozilla-ppa-repository)
+
+* [Installation from DEBs](#installation-from-debs)
+
+* [Fonts](#fonts)
+
+* [OPT Folder](#opt-folder)
+
+* [Audacity](#audacity)
+
+* [gThumb](#gthumb)
+
+* [GIMP](#gimp)
+
+* [qBittorrent](#qbittorrent)
+
+* [Foliate](#foliate)
+
+* [Ksnip](#ksnip)
+
+* [Drawing](#drawing)
+
+* [Conky](#conky)
+
+* [GTK for QT](#add-support-of-gtk-for-qt)
+
+* [Correct Jibberish Coding](#correct-jibberish-coding)
 
 ---
 
 ## Disk Partition
+
+Install **Elementary OS** in the Expert Mode and partition your disk space as you need. The following table is the example of my disk.
 
 | Order | Size     | File System | Mount       | Flags     |
 |-------|----------|-------------|-------------|-----------|
@@ -11,58 +57,29 @@
 | 3     | 8 GB     | linux-swap  |             | swap      |
 | 4     | All      | btrfs       | /home       |           |
 
-⚠️ Объем под ROOT и SWAP, а также файловую систему под ROOT и HOME выбирайте по своим потребностям и на свое усмотрение.
+⚠️ Choose ROOT and SWAP size as well as file system for ROOT and HOME in accordance with your demands.
 
------
+---
 
-## Добавить возможность устанавливать программы через репозитории РРА:
+## Add PPA Repositories Management
 
 ```
 sudo apt install -y software-properties-common software-properties-gtk
 ```
 
-**Далее для установки использовать:**
+---
 
-Найти программу
+## Hide GRUB
 
-```
-sudo apt search <program-name>
-```
+1. Open the following file as admin `/etc/default/grub`
 
-Установить
+2. Add the following string `GRUB_RECORDFAIL_TIMEOUT=0` and save the file.
 
-```
-sudo apt install <program-name>
-```
+3. Run `sudo update-grub`
 
-Удалить
+---
 
-```
-sudo apt remove <program-name>
-```
-
-или удалить с более тщательной подчисткой следов программы
-
-```
-sudo spt purge <program-name>
-```
-
------
-
-## Скрыть меню GRUB при загрузке ОС.
-
-1. Открыть от имени администратора файл:   
-```/etc/default/grub```
-
-2. Добавить в него строку:   
-```GRUB_RECORDFAIL_TIMEOUT=0```
-
-3. Выполнить:   
-```sudo update-grub```
-
------
-
-## Pantheon Tweaks для расширенной настройки ОС
+## Pantheon Tweaks
 
 ```
 sudo add-apt-repository -y ppa:philip.scott/pantheon-tweaks
@@ -71,42 +88,43 @@ sudo apt install -y pantheon-tweaks
 
 ---
 
-## Дополнительные настройки из GNOME
-
-*(Там есть очень нужные настройки обработки шрифтов)*
+## Additional GNOME settings
 
 ```
 sudo apt install gnome-tweaks gnome-tweak-tool gnome-shell-common
 ```
+---
 
-## Менеджер паролей KeePassXC
+## KeePassXC
 
 ```
 sudo add-apt-repository ppa:phoerious/keepassxc
 sudo apt install keepassxc
 ```
+
 ---
 
-## Firefox через официальный PPA репозиторий Mozilla:
+## Firefox via official Mozilla PPA repository
+
+Add repository
 
 ```
 sudo add-apt-repository ppa:mozillateam/ppa
 ```
 
-Установить Firefox следующей командой:
+Install Firefox
 
 ```
 sudo apt install -t 'o=LP-PPA-mozillateam' firefox
 ```
-
-Здесь нужно с помощью параметра ```-t``` явно указывать, откуда устанавливать программу, потому что по умолчанию у snap приоритет выше.   
-После установки можно поднять приоритет этого репозитория.   
-Для этого создать файл `/etc/apt/preferences.d/mozillateamppa`
+ 
+Create the file `/etc/apt/preferences.d/mozillateamppa`
 
 ```
 sudo vi /etc/apt/preferences.d/mozillateamppa
 ```
-Добавить в него следующее содержание:
+
+Add the following content in the file:
 
 ```
 Package: firefox*
@@ -114,80 +132,88 @@ Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 501
 ```
 
-### Допилить **ublock**
+### Firefox Elementary Theme
 
-Импортировать в него:   
+https://github.com/Zonnev/elementaryos-firefox-theme
+
+### Rework Ublock
+
+Import the following to **Ublock**:   
 https://easylist-downloads.adblockplus.org/cntblock.txt
 
-Это отключает рекламу в сервисах Яндекса (в почте в том числе). Со стандартными настройками ее не вытравишь.
+It kills all Yandex adds (including mail UI)
 
 ---
 
-## Установка программ из DEB пакетов
+## Installation from DEBs
 
-Чтобы установить программу из DEB пакета, нужно зайти в терминал из той папки, в которой пакет находится.
+Open **Terminal** from the folder where the DEB file is stored and run
 
-Установить deb-пакет   
-```
-sudo dpkg -i имя_пакета.deb
-```
+Install
 
-Удалить deb-пакет   
 ```
-sudo apt remove имя_пакета.deb
+sudo dpkg -i <app-name>.deb
 ```
 
-Удалить пакет со всеми его настройками:   
+Remove
+
 ```
-sudo apt purge имя_пакета.deb
+sudo apt remove <app-name>
+```
+
+Remove with all config files
+
+```
+sudo apt purge <app-name>.deb
 ```
 
 ---
 
-## Шрифты
+## Fonts
 
 ```
 sudo apt install ttf-mscorefonts-installer
 ```
+
 ```
 sudo apt install xfonts-terminus fonts-terminus ttf-dejavu fonts-liberation fonts-liberation2 fonts-crosextra-carlito fonts-crosextra-caladea fonts-cantarell
 ```
 
 ---
 
-## Защищенные папки
+## OPT Folder
 
-Внести из архива в защищенную папку
+Extract from an archive to OPT
 
 ```
 sudo tar xvf ~/app-name.tar.bz2 -C /opt/
 ```
 
-Удалить из защищенной папки
+Remove from OPT
 
 ```
 sudo rm -fr /opt/app-name
 ```
 
-Например, так можно установить Telegram:
+Install Telegram
 
 ```
-sudo tar xvf /home/dedared/Софт/Linux Apps/tsetup.4.6.0.tar.xz -C /opt/
+sudo tar xvf <app-archive-fullname> -C /opt/
 ```
 
 ---
 
-## Audacity (Music Editor)
+## Audacity
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/audacity
 ```
 
-или через Flatpak
+or Flatpak
 
 ---
 
-## gThumb (Image Viewer)
+## gThumb
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/apps
@@ -197,7 +223,7 @@ sudo apt install gthumb
 
 ---
 
-## GIMP (Image Editor)
+## GIMP
 
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/gimp
@@ -205,11 +231,9 @@ sudo apt update
 sudo apt install gimp
 ```
 
-не особо он нужен нынче, так как есть вот это:
+may be not necessary since we have this:
 
 https://www.photopea.com/
-
-для домашних нужд более, чем достаточно.
 
 ---
 
@@ -223,7 +247,7 @@ sudo apt install qbittorrent
 
 ---
 
-## Foliate (Reader)
+## Foliate
 
 ```
 sudo add-apt-repository ppa:apandada1/foliate
@@ -233,11 +257,11 @@ sudo apt install foliate
 
 ---
 
-## KSnip (Screenshoter)
+## KSnip
 
-⚠️ Надо [скачать deb пакет!!!](https://github.com/ksnip/ksnip/releases)
+⚠️ I prefer installation via [DEB file](https://github.com/ksnip/ksnip/releases)
 
-Через репозиторий только для UBUNTU до 21 версии
+via APT is for older UBUNTU versions only
 
 ```
 sudo add-apt-repository ppa:nemonein/ksnip
@@ -245,30 +269,29 @@ sudo apt update
 sudo apt install ksnip
 ```
 
-Если косячный, лучше установить Shutter, репозиторий есть уже в системе,
-хотя, он еще более косячный.
-Нет нормального скриншотера для Линукса вообще
-
 ---
 
-## Drawing (Paint)
+## Drawing
 
 ```
 sudo add-apt-repository ppa:cartes/drawing
 sudo apt update
 ```
+
 ---
 
-## Conky (Desktop Clock & System Monitor)
+## Conky
 
 ```
 sudo apt install conky conky-all
 sudo apt install lm-sensors
 ```
 
-В папку `~/home/.Conky` положить нужные файлы.
+Extract [files](https://disk.yandex.ru/d/exuqS3j7mH3XrQ) to `~/home/.Conky`
 
-В автозагрузку добавить команды:
+Add fonts for clocks to `~/home/.fonts`
+
+Add to autostart:
 
 ```
 conky -c /home/dedared/.Conky/default/conky.conf
@@ -277,70 +300,52 @@ conky -c /home/dedared/.Conky/default/conky.conf
 .Conky/revolutionary_clocks/rev_midi/start_conky.sh
 ```
 
-Шрифты для часов положить в папку: ~/home/.fonts   
-Если папки такой нет, создать.
-
 ---
 
-## Подключить поддержку тем GTK для QT приложений
+## Add support of GTK for QT
 
 ```
 sudo apt install qt5-style-plugins qt5ct
 ```
 
-В файле:
+In the file `/etc/profile.d/qt-style-override.sh`
 
-```
-/etc/profile.d/qt-style-override.sh
-```
+remove the string `export QT_STYLE_OVERRIDE=adwaita`
 
-удалить строку:
+In the file `/etc/profile.d/qt-qpa-platformtheme.sh`
 
-```
-export QT_STYLE_OVERRIDE=adwaita
-```
-В файле
-
-```
-/etc/profile.d/qt-qpa-platformtheme.sh
-```
-
-должно быть так:
-
-```
-export QT_QPA_PLATFORMTHEME=qt5ct
-```
+must be `export QT_QPA_PLATFORMTHEME=qt5ct`
 
 ---
 
-## Исправление кракозябр в Линуксе
+## Correct jibberish coding
 
-1. Проверить локали:
+1. Check locale:
 
   ```
   locale -a
   ```
 
-2. Если там не будет ru_RU.cp1251 то от имени админа открыть:
+2. If it doesn't have **ru_RU.cp1251**, open as admin:
 
   ```
   ~/var/lib/locales/supported.d/ru
   ```
   
-3. и там (если нет) добавить:
+3. Add:
 
 ```
 ru_RU.CP1251 CP1251
 ru_RU.KOI8-R KOI8-R
 ```
 
-4. Сохранить и после выполнить:
+4. Save and run:
 
 ```
 sudo locale-gen
 ```
 
-Должно снизу вылезти такое:
+It must result with:
 
 ```
 Generating locales...
@@ -352,13 +357,13 @@ Generating locales...
 Generation complete.
 ```
 
-4. Затем проверить снова:
+4. Check locale again:
 
 ```
 locale -a
 ```
 
-Должно быть примерно так:
+Must be like this:
 
 ```
 en_US.utf8
