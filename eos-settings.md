@@ -152,7 +152,7 @@ Open **Terminal** from the folder where the DEB file is stored and run
 Install
 
 ```
-sudo dpkg -i <app-name>.deb
+sudo dpkg -i <app-file-name>.deb
 ```
 
 Remove
