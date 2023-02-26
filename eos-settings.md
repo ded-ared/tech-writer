@@ -30,8 +30,6 @@
 
 * [GIMP](#gimp)
 
-* [qBittorrent](#qbittorrent)
-
 * [Foliate](#foliate)
 
 * [Ksnip](#ksnip)
@@ -234,16 +232,6 @@ sudo apt install gimp
 may be not necessary since we have this:
 
 https://www.photopea.com/
-
----
-
-## qBittorrent
-
-```
-sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
-sudo apt update
-sudo apt install qbittorrent
-```
 
 ---
 
