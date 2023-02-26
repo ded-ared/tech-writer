@@ -139,7 +139,7 @@ https://github.com/Zonnev/elementaryos-firefox-theme
 Import the following to **Ublock**:   
 https://easylist-downloads.adblockplus.org/cntblock.txt
 
-It kills all Yandex adds (including mail UI)
+It kills all Yandex adds (including that in the mail UI)
 
 ---
 
