@@ -14,6 +14,8 @@
 
 * [Additional GNOME Settings](#additional-gnome-settings)
 
+* [System Monitor](#system-monitor)
+
 * [KeePassXC](#keepassxc)
 
 * [Firefox + bonus](#firefox-via-official-mozilla-ppa-repository)
@@ -91,6 +93,15 @@ sudo apt install -y pantheon-tweaks
 ```
 sudo apt install gnome-tweaks gnome-tweak-tool gnome-shell-common
 ```
+---
+
+## System Monitor
+
+```
+sudo add-apt-repository ppa:stsdc/monitor
+sudo apt install com.github.stsdc.monitor   
+```
+
 ---
 
 ## KeePassXC
