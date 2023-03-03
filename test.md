@@ -1,3 +1,37 @@
+<table class="table" style="table-layout: fixed;" cellpadding="0" cellspacing="0">
+	<tr valign="top" BGCOLOR="#CCCCCC">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Field</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Description</b></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Type</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Bank card</b> as a payment method is selected from the drop-down list.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Subtype</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Payment method configured in the <b>Integrations → Payment methods</b> section of the Dashboard and selected from the drop-down list.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td colspan="2" width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Data / Fixed data</b></font></p>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
 ```mermaid
 graph TB
 A((Inception</br>I wonder how long</br>the text can be here)) ---> B(Vers 1)
