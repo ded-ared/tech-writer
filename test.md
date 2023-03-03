@@ -22,7 +22,7 @@
 	</tr>
 	<tr valign="top">
 		<td colspan="2" width="100%" style="border: 1px solid #000000; padding: 0cm"><p>
-			<font face="Arial, sans-serif"><b>Data / Fixed data</b></font></p>
+			<font face="Arial, sans-serif">The fields below are available for both <b>Data</b> and <b>Fixed data</b> sections of the table.</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
@@ -50,11 +50,26 @@
 		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Valid until</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card expiry date in the YYYY-MM format.</font></p>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card expiry date in the <b>YYYY-MM</b> format.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Issue date</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card issue date if there is such information on the card.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Transaction amount</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">The amount of the current transaction.<br><br>The field may be blank if the applicant is uploading the card data only for registering and not for a particular transaction.</font></p>
 		</td>
 	</tr>
 </table>
 
+⚠️ Fixed data is the card info that you can submit to us via API to compare with extracted data.
 
 
 
