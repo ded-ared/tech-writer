@@ -1,5 +1,5 @@
 <table class="table" style="table-layout: fixed;" cellpadding="0" cellspacing="0">
-	<tr valign="top" BGCOLOR="#CCCCCC">
+	<tr valign="top">
 		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Field</b></font></p>
 		</td>
 		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p>
@@ -21,8 +21,36 @@
 		</td>
 	</tr>
 	<tr valign="top">
-		<td colspan="2" width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td colspan="2" width="100%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Data / Fixed data</b></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>First name</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">First name of the card holder as written on the bank card. The field may contain a <b>Cardholder</b> title (or something like that) if the card is non-personalized.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Last name</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Last name of the card holder as written on the bank card.<br><br>The field may be blank if the card is non-personalized.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Number</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card number.<br><br>Only the first four and last four digits are shown.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Valid until</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card expiry date in the YYYY-MM format.</font></p>
 		</td>
 	</tr>
 </table>
