@@ -1,5 +1,7 @@
+# Bank Card Details
+
 <table class="table" style="table-layout: fixed;" cellpadding="0" cellspacing="0">
-	<tr style="background-color: yellow;" valign="top">
+	<tr style="background-color: yellow;" valign="top" align="center">
 		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Field</b></font></p>
 		</td>
 		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p>
@@ -20,9 +22,9 @@
 		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Payment method configured in the <b>Integrations → Payment methods</b> section of the Dashboard and selected from the drop-down list.</font></p>
 		</td>
 	</tr>
-	<tr valign="top">
+	<tr valign="top" align="center">
 		<td colspan="2" width="100%" style="border: 1px solid #000000; padding: 0cm"><p>
-			<font face="Arial, sans-serif">The fields below are available for both <b>Data</b> and <b>Fixed data</b> sections of the table.</font></p>
+			<font face="Arial, sans-serif">The fields below are available for both <b>Data</b> and <b>Fixed data</b> sections.</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
@@ -70,6 +72,87 @@
 </table>
 
 ⚠️ Fixed data is the card info that you can submit to us via API to compare with extracted data.
+
+
+# Crypto-wallet Details
+
+<table class="table" style="table-layout: fixed;" cellpadding="0" cellspacing="0">
+	<tr style="background-color: yellow;" valign="top" align="center">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Field</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Description</b></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Type</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Crypto-wallet</b> as a payment method is selected from the drop-down list.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Subtype</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Payment method configured in the <b>Integrations → Payment methods</b> section of the Dashboard and selected from the drop-down list.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>ERC-20 Token</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">For detailed info, refer to <a href="https://developers.sumsub.com/applicant-actions/tokenList.html">ERC-20 Token ID</a></font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Payment direction</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Available options:<br>
+			<ul>
+				<li><b>Deposit</b> — that is put in the applicant’s account</li>
+				<li><b>Withdrawal</b> — that is taken out of the applicant’s account</li>
+			</ul></font></p>
+		</td>
+	</tr>
+	<tr valign="top" align="center">
+		<td colspan="2" width="100%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif">The fields below are available for both <b>Data</b> and <b>Fixed data</b> sections.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Wallet address/Fixed Wallet address</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Applicant wallet address.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Transaction</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Crypto transaction hash.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Issue date</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Issue date is ignored in case of crypto check so this field stays blank.</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif"><b>Transaction amount</b></font></p>
+		</td>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Transaction amount if applicable to the document.<br><br>The field may be blank if the applicant is uploading the wallet data only for registering and not for a particular transaction.</font></p>
+		</td>
+	</tr>
+</table>
+
+⚠️ Fixed data is the crypto-wallet and transaction info that you can submit to us via API to compare with extracted data.
+
 
 
 
