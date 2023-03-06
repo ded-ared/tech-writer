@@ -52,7 +52,7 @@
 		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Valid until</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card expiry date in the <b>YYYY-MM</b> format.</font></p>
+		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card expiry date in the <code>YYYY-MM</code> format.</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
