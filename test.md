@@ -2,71 +2,97 @@
 
 <table class="table" style="table-layout: fixed;" cellpadding="0" cellspacing="0">
 	<tr valign="top" align="center">
-		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Field</b></font></p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Field</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Required</b></font></p>
+		</td>
+		<td width="60%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Description</b></font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Type</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Bank card</b> as a payment method is selected from the drop-down list.</font></p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif">Yes</font></p>
+		</td>
+		<td width="60%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif"><b>Bank card</b> as a payment method is selected from the drop-down list.</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Subtype</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Payment method configured in the <b>Integrations → Payment methods</b> section of the Dashboard and selected from the drop-down list.</font></p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif">Yes</font></p>
+		</td>
+		<td width="60%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Payment method configured in the <b>Integrations → Payment methods</b> section of the Dashboard and selected from the drop-down list.</font></p>
 		</td>
 	</tr>
 	<tr valign="top" align="center">
-		<td colspan="2" width="100%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td colspan="3" width="100%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif">The fields below are available for both <b>Data</b> and <b>Fixed data</b> sections.</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>First name</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">First name of the card holder as written on the bank card. The field may contain a <b>Cardholder</b> title (or something like that) if the card is non-personalized.</font></p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif">No</font></p>
+		</td>
+		<td width="60%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">First name of the card holder as written on the bank card. The field may contain a <b>Cardholder</b> title (or something like that) if the card is non-personalized.</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Last name</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Last name of the card holder as written on the bank card.<br><br>The field may be blank if the card is non-personalized.</font></p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif">No</font></p>
+		</td>
+		<td width="60%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Last name of the card holder as written on the bank card.<br><br>The field may be blank if the card is non-personalized.</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Number</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card number.<br><br>Only the first four and last four digits are shown.</font></p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif">Yes</font></p>
+		</td>
+		<td width="60%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card number.<br><br>Only the first four and last four digits are shown.</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Valid until</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card expiry date in the <code>YYYY-MM</code> format.</font></p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif">No</font></p>
+		</td>
+		<td width="60%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card expiry date in the <code>YYYY-MM</code> format.</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Issue date</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card issue date if there is such information on the card.</font></p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif">No</font></p>
+		</td>
+		<td width="60%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">Card issue date if there is such information on the card.</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td width="30%" style="border: 1px solid #000000; padding: 0cm"><p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
 			<font face="Arial, sans-serif"><b>Transaction amount</b></font></p>
 		</td>
-		<td width="70%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">The amount of the current transaction.<br><br>The field may be blank if the applicant is uploading the card data only for registering and not for a particular transaction.</font></p>
+		<td width="20%" style="border: 1px solid #000000; padding: 0cm"><p>
+			<font face="Arial, sans-serif">No</font></p>
+		</td>
+		<td width="60%" style="border: 1px solid #000000; padding: 0cm"><p><font face="Arial, sans-serif">The amount of the current transaction.<br><br>The field may be blank if the applicant is uploading the card data only for registering and not for a particular transaction.</font></p>
 		</td>
 	</tr>
 </table>
