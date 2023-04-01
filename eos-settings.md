@@ -57,7 +57,7 @@ Install **Elementary OS** in the Expert Mode and partition your disk space as yo
 | 3     | 8 GB     | linux-swap  |             | swap      |
 | 4     | All      | btrfs       | /home       |           |
 
-⚠️ Choose ROOT and SWAP size as well as file system for ROOT and HOME in accordance with your demands.
+⚠️ Choose ROOT and SWAP size as well as the file system for ROOT and HOME in accordance with your demands.
 
 ---
 
@@ -73,7 +73,7 @@ sudo apt install -y software-properties-common software-properties-gtk
 
 1. Open the following file as admin `/etc/default/grub`
 
-2. Add the following string `GRUB_RECORDFAIL_TIMEOUT=0` and save the file.
+2. Add the following `GRUB_RECORDFAIL_TIMEOUT=0` and save the file.
 
 3. Run `sudo update-grub`
 
@@ -91,15 +91,14 @@ sudo apt install -y pantheon-tweaks
 ## Additional GNOME settings
 
 ```
-sudo apt install gnome-tweaks gnome-tweak-tool gnome-shell-common
+sudo apt install gnome-tweaks gnome-shell-common
 ```
 ---
 
 ## System Monitor
 
 ```
-sudo add-apt-repository ppa:stsdc/monitor
-sudo apt install com.github.stsdc.monitor   
+sudo apt install gnome-system-monitor
 ```
 
 ---
